@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../static/img/iut.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <title>Iut_Code</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header class="title">
+        <h1>Iut_Cod3 <img src="{{ url_for('static', filename='img/logo.jpg') }}" width="50px" ></h1>
+    </header>
+    <header class="header">
+        <div class="gif">
+            <div class="conten_title">
+                <h1 class="title_iut">Ancho de Banda Y</h1>
+                <h1 class="title_iut">Tecnologia en Redes</h1>
+            </div>
+            <div class="separador"></div>
+        </div>
+    </header>
+
+{% block content %}
+
+{% endblock %}
+
+
+<div class="separador_footer"></div>
+
+    <footer class="footer">
+        <div class="content_f">
+        <h4 class="copyright">Iut_Cod3 &COPY;copyright 2020</h4>
+        <h4 class="miembros">Developers <br> <br>Duque Keiry <br> 
+            Montero Angelo</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
